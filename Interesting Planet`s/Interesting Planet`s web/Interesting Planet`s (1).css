@@ -1,0 +1,148 @@
+h1 {
+    
+visibility: hidden;
+}
+
+
+
+.menu li{
+
+list-style: none;
+display: inline-block;
+font: bold 22px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+background:#18181a;
+padding: 10px; 
+border: solid #18181a 10px;
+border-radius: 80px;
+color: white;
+}
+
+
+
+h2 {
+font-size: 35px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background:#2b2b2e;
+border: solid  #2b2b2e 5px;
+border-radius: 20px;
+animation-duration: 2s;
+  animation-name: animacionsita;
+}
+
+
+body {
+text-align: center;
+margin-bottom: 50px;
+}
+time{
+
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-align:right;
+color: white;
+
+}
+header {
+background:#222225 ;
+
+padding: 0px;
+border: solid #222225 5px;
+border-radius: 20px;
+}
+footer{
+background: #222225;
+border: solid #222225 5px;
+border-radius: 20px;
+}
+section{
+background:#222225 ;
+padding: 0px;
+text-align: left;
+font-size: 19px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: #e0e0e0;
+border: solid #222225 5px;
+border-radius: 20px;
+}
+.grupito{
+width: 1000px;
+margin: auto;
+
+}
+table{
+background: #222225;
+font-size: 20px;
+border: solid #222225 5px;
+border-radius: 20px;
+border-color: whitesmoke;
+text-align: left;
+animation-duration: 2s;
+  animation-name: animacionsita;
+}
+.titulito{
+text-align: center;
+}
+.patita{
+clear: both;
+font-size: 20px;
+color: white;
+}
+.autores{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #222225;
+    color: white;
+    width: 300px;
+    padding: 10px;
+border-radius: 20px;
+font-size: 20px;
+
+
+
+}
+
+a:link, a:visited, a:active {
+text-decoration:none;
+color: white;
+}
+.contactos{
+
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #222225;
+    color: white;
+    width: 500px;
+    padding: 5px;
+border-radius: 20px;
+font-size: 20px;
+
+}
+.jueguito {
+    border-radius: 20px;
+   
+
+}
+
+.video {
+    border-radius: 20px;
+}
+
+.logo {
+    border-radius: 20px;
+    background-color:  #222225;
+    padding: 0%;
+}
+.matu {
+float: right;
+
+}
+.matu2 {
+    float: left; 
+    }
+
+    @keyframes animacionsita {
+        from {
+          margin-left: 100%;
+          width: 300%
+           }
+
+           

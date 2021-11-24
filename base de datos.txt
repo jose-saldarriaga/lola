@@ -1,0 +1,8 @@
+CREATE DATABASE usuario;
+CREATE TABLE registro(
+	usuario varchar(20),
+	contraseña varchar(12),
+	email varchar(30),
+	telefono int(10),
+	fechadenacimiento DATE
+);
